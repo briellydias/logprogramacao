@@ -1,0 +1,25 @@
+<html>
+  <header>
+    <script>
+      var num1 = Number(prompt("Digite o primeiro número?"));
+      var num2 = Number(prompt("Digite o segundo número?"));
+      var num3 = Number(prompt("Digite o terceiro número?"));
+      var soma;
+
+      if (num3 < num1 && num1 < num2) {
+        soma = num1 + num2;
+        document.write("A soma será" + "\n" + soma);
+      } else if (num2 < num1 && num1 < num3) {
+        soma = num1 + num3;
+        document.write("A soma será" + "\n" + soma);
+      } else if (num1 > num3) {
+        soma = num1 + num2;
+        document.write("A soma será" + "\n" + soma);
+      } else {
+        soma = num2 + num3;
+        document.write("A soma será" + "\n" + soma);
+      }
+    </script>
+  </header>
+  <body></body>
+</html>

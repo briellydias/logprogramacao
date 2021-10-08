@@ -1,0 +1,49 @@
+<html>
+  <header>
+    <script>
+      var num1 = Number(prompt("Digite o primeiro número?"));
+      var num2 = Number(prompt("Digite o segundo número?"));
+      var escolha = parseInt(prompt("Selecione uma opção: \n (1) Soma \n (2) Subtração \n (3) Multiplicação \n (4) Divisão"));
+
+      switch (escolha) {
+        case 1:
+          soma();
+          break;
+        case 2:
+          subtracao();
+          break;
+        case 3:
+          multiplicacao();
+          break;
+        case 4:
+          divisao();
+          break;
+        default:
+          erro();
+          break;
+      }
+
+      function soma() {
+        soma = num1 + num2;
+        document.write("Resultado da soma: " + soma);
+      }
+
+      function subtracao() {
+        subtracao = num1 - num2;
+        document.write("Resultado da subtração: " + subtracao);
+      }
+
+      function multiplicacao() {
+        multiplicacao = num1 * num2;
+        document.write("Resultado da multiplicação: " + multiplicacao);
+      }
+
+      function divisao() {
+        divisao = num1 / n2;
+        document.write("Resultado da divisão: " + divisao);
+      }
+
+    </script>
+  </header>
+  <body></body>
+</html>
